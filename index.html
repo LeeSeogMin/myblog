@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my blog</title>
-</head>
-<body>
-    <h1>시작해볼까요?</h1>
-</body>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>공공빅데이터융합학부</h1>
+    <p>공빅학부는 공공영역에 대해 연구하는 행정학전공과 공공빅데이터와 관련된 데이터엔지니어와 빅데이터분석을 연구하는 공공빅데이터전공이 융합한 학부입니다.</p>
+	
+    <div>
+      <button id="open">행정학전공</button>
+      <div class="modal-wrapper" style="display: none;">
+        <div class="modal">
+          <div class="modal-title">어서와 행정학은 처음이지?</div>
+          <p>공공영역의 인재를 양성하는 행정학은 주로 공무원시험을 통해 관직에 진출하는 트랙과 공기업과 같이 공공영역에서 공공의 이익에 봉사하고자 하는 트랙으로 구분된다. </p>
+          <div class="close-wrapper">
+            <button id="close">닫기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+	  <div>
+      <button id="open">공공빅데이터전공</button>
+      <div class="modal-wrapper" style="display: none;">
+        <div class="modal">
+          <div class="modal-title">안녕! 여기는 공공빅데이터전공이야</div>
+          <p>모달 내용은 어쩌고 저쩌고..</p>
+          <div class="close-wrapper">
+            <button id="close">닫기</button>
+          </div>
+        </div>
+      </div>
+
+    </div>	
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
